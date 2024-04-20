@@ -2,6 +2,10 @@ A trying program of non autoregressive image captioning.
 
 Transforemer Encoder outputs is upsampled and used for input as Transformer Decoder target input. And, CTCLoss was used for calculation of loss.
 
+### Datasets
+
+Train2014 of cocodataset was used as datasets. Train dataset is 70 % and Validation dataset is 30% of train2014.
+
 ### Inference Results
 
 
